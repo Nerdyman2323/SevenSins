@@ -1,0 +1,22 @@
+name: SevenSins
+version: '${project.version}'
+main: com.sevensins.SevenSinsPlugin
+api-version: '1.21'
+authors: [SevenSins]
+description: Seven Deadly Sins custom weapons, bosses, and altar system
+
+commands:
+  sevensins:
+    description: SevenSins admin commands
+    aliases: [ss, sins]
+    usage: /sevensins <give|reload|spawnboss>
+    permission: sevensins.admin
+  summonboss:
+    description: Summon a specific sin boss
+    usage: /summonboss <sin>
+    permission: sevensins.admin
+
+permissions:
+  sevensins.admin:
+    description: Access to all SevenSins admin commands
+    default: op

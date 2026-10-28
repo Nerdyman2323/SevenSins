@@ -1,0 +1,63 @@
+# Seven Deadly Sins Plugin Configuration
+# Paper 1.21.1
+
+# Altar Settings
+altar:
+  activation-radius: 2        # Blocks around altar checked for offerings
+  summon-cooldown: 300        # Seconds between boss summons per altar
+  particle-enabled: true
+
+# Boss Settings
+bosses:
+  lust:
+    health: 400.0
+    damage-multiplier: 1.5
+    speed-multiplier: 0.35
+    size: 2.0                 # Scale factor
+    spawn-lightning: true
+  greed:
+    health: 600.0
+    damage-multiplier: 1.8
+    speed-multiplier: 0.25
+    size: 3.0
+    spawn-lightning: true
+  sloth:
+    health: 800.0
+    damage-multiplier: 2.0
+    speed-multiplier: 0.15
+    size: 3.5
+    spawn-lightning: true
+  wrath:
+    health: 500.0
+    damage-multiplier: 2.5
+    speed-multiplier: 0.30
+    size: 2.5
+    spawn-lightning: true
+  envy:
+    health: 450.0
+    damage-multiplier: 1.6
+    speed-multiplier: 0.40
+    size: 2.0
+    spawn-lightning: true
+  pride:
+    health: 700.0
+    damage-multiplier: 2.2
+    speed-multiplier: 0.28
+    size: 3.0
+    spawn-lightning: true
+  gluttony:
+    health: 900.0
+    damage-multiplier: 1.9
+    speed-multiplier: 0.20
+    size: 4.0
+    spawn-lightning: true
+
+# Weapon cooldowns in ticks (20 ticks = 1 second)
+weapons:
+  lust-cooldown: 200
+  greed-cooldown: 160
+  sloth-cooldown: 300
+  wrath-cooldown: 100
+  envy-cooldown: 180
+  pride-cooldown: 240
+  gluttony-cooldown: 220
